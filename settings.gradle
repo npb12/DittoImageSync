@@ -1,0 +1,9 @@
+include ':app'
+rootProject.name = "Pics"
+
+/*
+includeBuild("../../dittokit/android") {
+    dependencySubstitution {
+        substitute(module("live.ditto:dittosynckit")).with(project(":ditto"))
+    }
+} */

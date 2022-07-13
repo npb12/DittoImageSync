@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:key="ditto.live.pics">
+    <PreferenceCategory>
+        <EditTextPreference
+            app:key="username"
+            app:title="Username:"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="videoMaxLength"
+            app:title="Video Max Length (seconds):"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
